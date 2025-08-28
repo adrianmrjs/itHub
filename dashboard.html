@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BootstrapGet- Grow Admin Dashboard Template</title>
+
+    <!-- Meta -->
+    <meta name="description"
+      content="Fully customizable admin template with dashboards, charts, and UI components. Ideal for business, finance, and eCommerce. Get it now on TemplateMonster.">
+    <meta name="author" content="BootstrapGet">
+    <link rel="canonical" href="https://www.bootstrapget.com">
+    <meta property="og:url" content="https://www.bootstrapget.com">
+    <meta property="og:title" content="Admin Templates - Dashboard Templates | BootstrapGet">
+    <meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+    <meta property="og:type" content="Website">
+    <meta property="og:site_name" content="BootstrapGet">
+    <link rel="shortcut icon" href="assets/images/favicon.svg">
+
+    <!-- *************
+			************ CSS Files *************
+		************* -->
+
+    <!-- Remix Font Icons css -->
+    <link rel="stylesheet" href="assets/fonts/remix/remixicon.css" />
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+
+    <!-- *************
+			************ Vendor Css Files *************
+		************ -->
+
+    <!-- Scrollbar CSS -->
+    <link rel="stylesheet" href="assets/vendor/overlay-scroll/OverlayScrollbars.min.css">
+
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" href="assets/vendor/toastify/toastify.css">
+
+  </head>
+
+  <body>
+
+    <!-- Page wrapper start -->
+    <div class="page-wrapper">
+
+      <!-- App header starts -->
+      <div class="app-header d-flex align-items-center">
+
+        <!-- Toggle buttons start -->
+        <div class="d-flex">
+          <button type="button" class="toggle-sidebar" id="toggle-sidebar">
+            <i class="ri-menu-fill"></i>
+          </button>
+          <button type="button" class="pin-sidebar" id="pin-sidebar">
+            <i class="ri-menu-fill"></i>
+          </button>
+        </div>
+        <!-- Toggle buttons end -->
+
+        <!-- App brand starts -->
+        <div class="app-brand py-2 ms-3">
+          <a href="index.html" class="d-sm-block d-none">
+            <img src="assets/images/logo.svg" class="logo" alt="BootstrapGet">
+          </a>
+          <a href="index.html" class="d-sm-none d-block">
+            <img src="assets/images/logo-sm.svg" class="logo" alt="BootstrapGet">
+          </a>
+        </div>
+        <!-- App brand ends -->
+
+        <!-- App header actions start -->
+        <div class="header-actions ms-auto">
+          <div class="d-lg-flex d-none">
+            <div class="dropdown">
+              <a class="dropdown-toggle header-icon" href="#!" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="ri-star-line bg-danger-subtle text-danger"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end shadow-lg dropdown-menu-md">
+
+                <h5 class="p-3 text-primary text-center">
+                  Bookmarks
+                </h5>
+
+                <!-- Bookmarks start -->
+                <div class="d-flex justify-content-center gap-2 m-2">
+                  <a href="analytics.html" class="icon-box md rounded-5 bg-primary">
+                    <i class="ri-pie-chart-line fs-4"></i>
+                  </a>
+                  <a href="subscribers.html" class="icon-box md rounded-5 bg-primary">
+                    <i class="ri-fingerprint-line fs-4"></i>
+                  </a>
+                  <a href="icons.html" class="icon-box md rounded-5 bg-primary">
+                    <i class="ri-vip-diamond-line fs-4"></i>
+                  </a>
+                  <a href="create-invoice.html" class="icon-box md rounded-5 bg-primary">
+                    <i class="ri-profile-line fs-4"></i>
+                  </a>
+                  <a href="calendar.html" class="icon-box md rounded-5 bg-primary">
+                    <i class="ri-calendar-line fs-4"></i>
+                  </a>
+                </div>
+                <!-- Bookmarks end -->
+
+              </div>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle header-icon" href="#!" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="ri-alert-line"></i>
+                <span class="count-label warning"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end shadow-lg dropdown-menu-md">
+                <h5 class="fw-semibold px-3 py-2 text-primary">
+                  Notifications
+                </h5>
+                <div class="scroll300">
+                  <div class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                    <div class="icon-box md bg-success rounded-circle">
+                      <i class="ri-shopping-cart-line fs-4"></i>
+                    </div>
+                    <div class="m-0">
+                      <h6 class="mb-1 fw-semibold">Ezekiel Bishop</h6>
+                      <p class="mb-1">You have new order.</p>
+                      <p class="small m-0 text-secondary">30 mins ago</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                    <div class="icon-box md bg-danger rounded-circle">
+                      <i class="ri-copper-coin-line fs-4"></i>
+                    </div>
+                    <div class="m-0">
+                      <h6 class="mb-1 fw-semibold">Donovan Stuart</h6>
+                      <p class="mb-1">Membership has been expired.</p>
+                      <p class="small m-0 text-secondary">45 mins ago</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                    <div class="icon-box md bg-warning rounded-circle">
+                      <i class="ri-swap-line fs-4"></i>
+                    </div>
+                    <div class="m-0">
+                      <h6 class="mb-1 fw-semibold">Roscoe Richards</h6>
+                      <p class="mb-1">Payment pending. Pay now.</p>
+                      <p class="small m-0 text-secondary">2 hours ago</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                    <div class="icon-box md bg-warning rounded-circle">
+                      <i class="ri-swap-line fs-4"></i>
+                    </div>
+                    <div class="m-0">
+                      <h6 class="mb-1 fw-semibold">Dianna Ford</h6>
+                      <p class="mb-1">Online order delivered. Click.</p>
+                      <p class="small m-0 text-secondary">6 hours ago</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                    <div class="icon-box md bg-info rounded-circle">
+                      <i class="ri-chat-voice-line fs-4"></i>
+                    </div>
+                    <div class="m-0">
+                      <h6 class="mb-1 fw-semibold">Isaiah Huber</h6>
+                      <p class="mb-1">Payment cancelled. Pay now.</p>
+                      <p class="small m-0 text-secondary">2 days ago</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start gap-3 p-3 dropdown-data">
+                    <div class="icon-box md bg-danger rounded-circle">
+                      <i class="ri-emoji-sticker-line fs-4"></i>
+                    </div>
+                    <div class="m-0">
+                      <h6 class="mb-1 fw-semibold">Rich Wills</h6>
+                      <p class="mb-1">Added new product. Check now.</p>
+                      <p class="small m-0 text-secondary">5 days ago</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-grid mx-3 my-1">
+                  <a href="javascript:void(0)" class="btn btn-primary">View all</a>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle header-icon" href="#!" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="ri-mail-open-line"></i>
+                <span class="count-label info"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end shadow-lg dropdown-menu-md">
+                <h5 class="fw-semibold px-3 py-2 text-primary">Updates</h5>
+                <div class="scroll300">
+                  <ul class="timeline list-unstyled p-3 ms-2">
+                    <li class="timeline-list pb-3 primary">
+                      <div class="ms-4 pb-2">
+                        <h6>Carly Sims</h6>
+                        <p class="m-0 text-secondary">Messages accepted with attachments</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 danger">
+                      <div class="ms-4 pb-2">
+                        <h6>Hilton Bailey</h6>
+                        <p class="m-0 text-secondary">Send email notifications of subscriptions and deletions to list
+                          owner</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 success">
+                      <div class="ms-4 pb-2">
+                        <h6>Autumn Rich</h6>
+                        <p class="m-0 text-secondary">Required change logs activity reports</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 warning">
+                      <div class="ms-4 pb-2">
+                        <h6>Juana Carney</h6>
+                        <p class="m-0 text-secondary">Strategic partnership plan</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 primary">
+                      <div class="ms-4 pb-2">
+                        <h6>Rochelle Wells</h6>
+                        <p class="m-0 text-secondary">Send email notifications of subscriptions and deletions to list
+                          owner</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 danger">
+                      <div class="ms-4 pb-2">
+                        <h6>Alfredo Waller</h6>
+                        <p class="m-0 text-secondary">Required change logs activity reports</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 success">
+                      <div class="ms-4 pb-2">
+                        <h6>Angel Wade</h6>
+                        <p class="m-0 text-secondary">Strategic partnership plan</p>
+                      </div>
+                    </li>
+                    <li class="timeline-list pb-3 primary">
+                      <div class="ms-4 pb-2">
+                        <h6>Myra Glenn</h6>
+                        <p class="m-0 text-secondary">Required change logs activity reports</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-grid mx-3 my-1">
+                  <a href="javascript:void(0)" class="btn btn-primary">View all</a>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle header-icon" href="#!" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="ri-chat-1-line"></i>
+                <span class="count-label"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-end shadow-lg dropdown-menu-md">
+                <h5 class="fw-semibold px-3 py-2 text-primary">Messages</h5>
+                <div class="scroll300">
+                  <ul class="notifications list-unstyled p-0 m-0 d-grid gap-3">
+                    <li>
+                      <a href="#" class="d-flex align-items-center gap-3 px-3 py-2">
+                        <div class="user-img position-relative online">
+                          <img src="assets/images/user.png" class="img-3x rounded-5" alt="Admin Templates">
+                        </div>
+                        <div class="d-flex align-items-start flex-column gap-2">
+                          <h6 class="m-0">Larkyn</h6>
+                          <p class="m-0">Check out every table in detail.</p>
+                          <span class="badge bg-primary-subtle text-primary">20 minutes ago</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="d-flex align-items-center gap-3 px-3 py-2">
+                        <div class="user-img position-relative busy">
+                          <img src="assets/images/user1.png" class="img-3x rounded-5" alt="Admin Templates">
+                        </div>
+                        <div class="d-flex align-items-start flex-column gap-2">
+                          <h6 class="m-0">Braxten</h6>
+                          <p class="m-0">Approved new design.</p>
+                          <span class="badge bg-primary-subtle text-primary">Two hours ago</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="d-flex align-items-center gap-3 px-3 py-2">
+                        <div class="user-img position-relative away">
+                          <img src="assets/images/user2.png" class="img-3x rounded-5" alt="Admin Templates">
+                        </div>
+                        <div class="d-flex align-items-start flex-column gap-2">
+                          <h6 class="m-0">Maria</h6>
+                          <p class="m-0">Membership has been ended.</p>
+                          <span class="badge bg-primary-subtle text-primary">Five days ago</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="d-flex align-items-center gap-3 px-3 py-2">
+                        <div class="user-img position-relative busy">
+                          <img src="assets/images/user3.png" class="img-3x rounded-5" alt="Admin Templates">
+                        </div>
+                        <div class="d-flex align-items-start flex-column gap-2">
+                          <h6 class="m-0">Alex</h6>
+                          <p class="m-0">Design Review.</p>
+                          <span class="badge bg-primary-subtle text-primary">One week ago</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="d-flex align-items-center gap-3 px-3 py-2">
+                        <div class="user-img position-relative online">
+                          <img src="assets/images/user4.png" class="img-3x rounded-5" alt="Admin Templates">
+                        </div>
+                        <div class="d-flex align-items-start flex-column gap-2">
+                          <h6 class="m-0">Sunny</h6>
+                          <p class="m-0">UI Discussion</p>
+                          <span class="badge bg-primary-subtle text-primary">Two weeks ago</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-grid mx-3 my-1">
+                  <a href="javascript:void(0)" class="btn btn-primary">View all</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown ms-2">
+            <a id="userSettings" class="dropdown-toggle d-flex align-items-center py-1" href="#!" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="assets/images/user.png" class="rounded-5 border border-2 border-primary img-3x"
+                alt="BootstrapGet">
+              <span class="ms-2 text-truncate d-lg-block d-none">Alissa French</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end shadow-lg dropdown-menu-sm">
+              <div class="header-action-links m-3 gap-2">
+                <a class="dropdown-item p-2" href="profile.html"><i
+                    class="ri-account-circle-line text-primary"></i>Profile</a>
+                <a class="dropdown-item p-2" href="settings.html"><i
+                    class="ri-settings-5-line text-primary"></i>Settings</a>
+                <a class="dropdown-item p-2" href="widgets.html"><i class="ri-tent-line text-primary"></i>Widgets</a>
+                <script type="module">
+                  import { auth } from './firebase.js';
+                  import { signOut } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+                  
+                  document.getElementById('logout').addEventListener('click', () => {
+                    signOut(auth);
+                  });
+                  </script>
+              </div>
+              <div class="mx-3 mt-2 d-grid">
+                <a href="login.html" class="btn btn-primary">Logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- App header actions end -->
+
+      </div>
+      <!-- App header ends -->
+
+      <!-- Main container start -->
+      <div class="main-container">
+
+        <!-- Sidebar wrapper start -->
+        <nav id="sidebar" class="sidebar-wrapper">
+
+          <!-- Sidebar profile starts -->
+          <div class="shop-profile d-xl-flex d-none">
+            <p class="mb-1 fw-bold text-primary text-truncate">Location</p>
+            <p class="m-0 text-truncate">Los Angeles, California</p>
+          </div>
+          <!-- Sidebar profile ends -->
+
+          <!-- Sidebar menu starts -->
+          <div class="sidebarMenuScroll">
+            <ul class="sidebar-menu">
+              <li class="active current-page">
+                <a href="index.html">
+                  <i class="ri-bar-chart-line"></i>
+                  <span class="menu-text">Dashboard</span>
+                </a>
+              </li>
+              <li>
+                <a href="analytics.html">
+                  <i class="ri-pie-chart-line"></i>
+                  <span class="menu-text">Analytics</span>
+                </a>
+              </li>
+              <li>
+                <a href="widgets.html">
+                  <i class="ri-tent-line"></i>
+                  <span class="menu-text">Widgets</span>
+                </a>
+              </li>
+              <li>
+                <a href="calendar.html">
+                  <i class="ri-calendar-line"></i>
+                  <span class="menu-text">Calendar</span>
+                </a>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-markup-line"></i>
+                  <span class="menu-text">Components</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="accordions.html">Accordions</a>
+                  </li>
+                  <li>
+                    <a href="alerts.html">Alerts</a>
+                  </li>
+                  <li>
+                    <a href="avatars.html">Avatars</a>
+                  </li>
+                  <li>
+                    <a href="buttons.html">Buttons</a>
+                  </li>
+                  <li>
+                    <a href="badges.html">Badges</a>
+                  </li>
+                  <li>
+                    <a href="carousel.html">Carousel</a>
+                  </li>
+                  <li>
+                    <a href="dropdowns.html">Dropdowns</a>
+                  </li>
+                  <li>
+                    <a href="list-items.html">List Items</a>
+                  </li>
+                  <li>
+                    <a href="placeholders.html">Placeholders</a>
+                  </li>
+                  <li>
+                    <a href="progress.html">Progress Bars</a>
+                  </li>
+                  <li>
+                    <a href="popovers.html">Popovers</a>
+                  </li>
+                  <li>
+                    <a href="spinners.html">Spinners</a>
+                  </li>
+                  <li>
+                    <a href="tooltips.html">Tooltips</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-table-alt-line"></i>
+                  <span class="menu-text">Forms</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="form-inputs.html">Form Inputs</a>
+                  </li>
+                  <li>
+                    <a href="form-checkbox-radio.html">Checkbox &amp; Radio</a>
+                  </li>
+                  <li>
+                    <a href="form-file-input.html">File Input</a>
+                  </li>
+                  <li>
+                    <a href="form-validations.html">Validations</a>
+                  </li>
+                  <li>
+                    <a href="form-bs-select.html">BS Select</a>
+                  </li>
+                  <li>
+                    <a href="date-time-pickers.html">Date Time Pickers</a>
+                  </li>
+                  <li>
+                    <a href="form-layouts.html">Form Layouts</a>
+                  </li>
+                  <li>
+                    <a href="input-tags.html">Input Tags</a>
+                  </li>
+                  <li>
+                    <a href="input-masks.html">Input Masks</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-profile-line"></i>
+                  <span class="menu-text">Invoices</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="create-invoice.html">Create Invoice</a>
+                  </li>
+                  <li>
+                    <a href="view-invoice.html">View Invoice</a>
+                  </li>
+                  <li>
+                    <a href="invoice-list.html">Invoice List</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="tables.html">
+                  <i class="ri-layout-grid-line"></i>
+                  <span class="menu-text">Tables</span>
+                </a>
+              </li>
+              <li>
+                <a href="ribbons.html">
+                  <i class="ri-bookmark-line"></i>
+                  <span class="menu-text">Ribbons</span>
+                </a>
+              </li>
+              <li>
+                <a href="user-cards.html">
+                  <i class="ri-instance-line"></i>
+                  <span class="menu-text">User Cards</span>
+                </a>
+              </li>
+              <li>
+                <a href="subscribers.html">
+                  <i class="ri-fingerprint-line"></i>
+                  <span class="menu-text">Subscribers</span>
+                </a>
+              </li>
+              <li>
+                <a href="contacts.html">
+                  <i class="ri-file-user-line"></i>
+                  <span class="menu-text">Contacts</span>
+                </a>
+              </li>
+              <li>
+                <a href="settings.html">
+                  <i class="ri-settings-5-line"></i>
+                  <span class="menu-text">Settings</span>
+                </a>
+              </li>
+              <li>
+                <a href="profile.html">
+                  <i class="ri-account-circle-line"></i>
+                  <span class="menu-text">Profile</span>
+                </a>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-radio-2-line"></i>
+                  <span class="menu-text">Cards</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="cards.html">Cards</a>
+                  </li>
+                  <li>
+                    <a href="advanced-cards.html">Advanced Cards</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-bubble-chart-line"></i>
+                  <span class="menu-text">Graphs</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="apex.html">Apex</a>
+                  </li>
+                  <li>
+                    <a href="morris.html">Morris</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="maps.html">
+                  <i class="ri-map-2-line"></i>
+                  <span class="menu-text">Maps</span>
+                </a>
+              </li>
+              <li>
+                <a href="tabs.html">
+                  <i class="ri-server-line"></i>
+                  <span class="menu-text">Tabs</span>
+                </a>
+              </li>
+              <li>
+                <a href="modals.html">
+                  <i class="ri-bank-card-line"></i>
+                  <span class="menu-text">Modals</span>
+                </a>
+              </li>
+              <li>
+                <a href="icons.html">
+                  <i class="ri-vip-diamond-line"></i>
+                  <span class="menu-text">Icons</span>
+                </a>
+              </li>
+              <li>
+                <a href="typography.html">
+                  <i class="ri-coreos-line"></i>
+                  <span class="menu-text">Typography</span>
+                </a>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-lock-unlock-line"></i>
+                  <span class="menu-text">Login/Signup</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="login.html">Login</a>
+                  </li>
+                  <li>
+                    <a href="signup.html">Signup</a>
+                  </li>
+                  <li>
+                    <a href="forgot-password.html">Forgot Password</a>
+                  </li>
+                  <li>
+                    <a href="reset-password.html">Reset Password</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="page-not-found.html">
+                  <i class="ri-alert-line"></i>
+                  <span class="menu-text">Page Not Found</span>
+                </a>
+              </li>
+              <li>
+                <a href="maintenance.html">
+                  <i class="ri-settings-line"></i>
+                  <span class="menu-text">Maintenance</span>
+                </a>
+              </li>
+              <li class="treeview">
+                <a href="#!">
+                  <i class="ri-boxing-line"></i>
+                  <span class="menu-text">Multi Levels</span>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="#!">Level One Link</a>
+                  </li>
+                  <li>
+                    <a href="#!">
+                      Level One Menu
+                      <i class="ri-arrow-right-s-line"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                      <li>
+                        <a href="#!">Level Two Link</a>
+                      </li>
+                      <li>
+                        <a href="#!">Level Two Menu
+                          <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                          <li>
+                            <a href="#!">Level Three Link</a>
+                          </li>
+                          <li>
+                            <a href="#!">Level Three Link</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#!">Level One Link</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="default.html">
+                  <i class="ri-send-plane-line"></i>
+                  <span class="menu-text">Default Page</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <i class="ri-exchange-line"></i>
+                  <span class="menu-text">Badge Fill</span>
+                  <span class="badge bg-primary ms-auto">6</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <i class="ri-ticket-line"></i>
+                  <span class="menu-text">Badge Outline</span>
+                  <span class="badge border border-primary text-primary ms-auto">Badge</span>
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="disabled">
+                  <i class="ri-magic-line"></i>
+                  <span class="menu-text">Disabled Link</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Sidebar menu ends -->
+
+        </nav>
+        <!-- Sidebar wrapper end -->
+
+        <!-- App container starts -->
+        <div class="app-container">
+
+          <!-- App hero header starts -->
+          <div class="app-hero-header d-flex align-items-center">
+
+            <!-- Breadcrumb start -->
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <i class="ri-home-3-line lh-1"></i>
+                <a href="index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item text-secondary" aria-current="page">
+                Dashboard
+              </li>
+            </ol>
+            <!-- Breadcrumb end -->
+
+            <!-- Sales stats start -->
+            <div class="ms-auto d-lg-flex d-none flex-row">
+              <div class="d-flex flex-row gap-1 day-selection">
+                <button type="button" class="btn btn-sm rounded-5 btn-primary">Today</button>
+                <button type="button" class="btn btn-sm rounded-5 btn-white">7D</button>
+                <button type="button" class="btn btn-sm rounded-5 btn-white">2W</button>
+                <button type="button" class="btn btn-sm rounded-5 btn-white">1M</button>
+                <button type="button" class="btn btn-sm rounded-5 btn-white">3M</button>
+                <button type="button" class="btn btn-sm rounded-5 btn-white">6M</button>
+                <button type="button" class="btn btn-sm rounded-5 btn-white">1Y</button>
+              </div>
+            </div>
+            <!-- Sales stats end -->
+
+          </div>
+          <!-- App Hero header ends -->
+
+          <!-- App body starts -->
+          <div class="app-body">
+
+            <!-- Row start -->
+            <div class="row gx-3">
+              <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <div class="icon-box md rounded-5 bg-primary-subtle">
+                        <i class="ri-shopping-cart-2-line text-primary fs-4"></i>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5 class="m-0 text-secondary fw-normal">Sales</h5>
+                      <h1 class="m-0 text-primary fw-bold">3500</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="mb-2">
+                      <div class="icon-box md rounded-5 bg-primary-subtle">
+                        <i class="ri-funds-line text-primary fs-4"></i>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5 class="m-0 text-secondary fw-normal">Orders</h5>
+                      <h1 class="m-0 text-primary fw-bold">2900</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="arrow-label">+18%</div>
+                    <div class="mb-2">
+                      <div class="icon-box md rounded-5 bg-primary-subtle">
+                        <i class="ri-nft-line text-primary fs-4"></i>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5 class="m-0 text-secondary fw-normal">Items</h5>
+                      <h1 class="m-0 text-primary fw-bold">6500</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 col-12">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="arrow-label">+24%</div>
+                    <div class="mb-2">
+                      <div class="icon-box md rounded-5 bg-primary-subtle">
+                        <i class="ri-tent-line text-primary fs-4"></i>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <h5 class="m-0 text-secondary fw-normal">Signups</h5>
+                      <h1 class="m-0 text-primary fw-bold">7200</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row end -->
+
+            <!-- Row start -->
+            <div class="row gx-3">
+              <div class="col-xxl-12">
+                <div class="card mb-3">
+                  <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Overview</h5>
+                    <button type="button" class="btn btn-primary btn-sm rounded-5 ms-auto">
+                      Download
+                    </button>
+                  </div>
+                  <div class="card-body">
+                    <!-- Row start -->
+                    <div class="row gx-3">
+                      <div class="col-xxl-5 col-sm-12 col-12">
+                        <h5 class="text-center mb-3 text-primary">Visitors</h5>
+                        <div class="overflow-hidden">
+                          <div id="visitors"></div>
+                        </div>
+                        <div class="my-3 text-center">
+                          <div class="badge bg-danger-subtle  text-danger">
+                            10% higher than last month
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xxl-2 col-sm-12 col-12">
+                        <div class="bg-primary p-3 rounded-5 h-100 text-center stripes-bg text-white">
+                          <h6 class="my-3 text-white">Monthly Average</h6>
+                          <div class="m-0">
+                            <h1 class="fw-bold">$9800</h1>
+                            <h6 class="fw-normal">Sales</h6>
+                          </div>
+                          <div class="overflow-hidden apex-legend-light">
+                            <div id="monthlySales"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xxl-5 col-sm-12 col-12">
+                        <h5 class="text-center mb-3 text-primary">Sales</h5>
+                        <div class="overflow-hidden">
+                          <div id="sales"></div>
+                        </div>
+                        <div class="my-3 text-center">
+                          <div class="badge bg-primary-subtle text-primary">
+                            12% higher than last month
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Row ends -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row ends -->
+
+            <!-- Row start -->
+            <div class="row gx-3">
+              <div class="col-xl-4 col-lg-6">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="card-title">Visitors</h5>
+                  </div>
+                  <div class="card-body">
+
+                    <div class="scroll300">
+                      <ul class="list-unstyled d-grid">
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/us.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">United States</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(68,890)</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-up-s-fill me-1"></i>3.9%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/br.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">Brazil</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(56,330)</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-up-s-fill me-1"></i>2.8%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/de.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">Germany</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(49,690)</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-up-s-fill me-1"></i>6.3%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/tr.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">Turkey</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(43,830)</span>
+                              <span class="badge bg-danger-subtle rounded-pill text-danger">
+                                <i class="ri-arrow-down-s-fill me-1"></i>8.2%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/in.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">India</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(33,290)</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-up-s-fill me-1"></i>2.3%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/ru.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">Russia</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(28,600)</span>
+                              <span class="badge bg-danger-subtle rounded-pill text-danger">
+                                <i class="ri-arrow-down-s-fill me-1"></i>9.8%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/ve.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">Venezuela</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(23,330)</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-up-s-fill me-1"></i>2.9%</span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-3">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <img src="assets/images/flags/1x1/mx.svg" class="img-2x rounded-circle"
+                              alt="Admin Template">
+                            <div class="flex-fill">Mexico</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>(14,590)</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-up-s-fill me-1"></i>3.2%</span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="card-title">Income</h5>
+                  </div>
+                  <div class="card-body">
+                    <div class="overflow-hidden">
+                      <div id="income"></div>
+                    </div>
+                    <div class="">
+                      <div class="d-flex gap-4">
+                        <div class="d-flex gap-2">
+                          <div class="icon-box md rounded-3 bg-primary-subtle">
+                            <span class="ri-openai-fill text-primary fs-3"></span>
+                          </div>
+                          <div>
+                            <p class="text-secondary m-0">Sales</p>
+                            <h4 class="m-0 fw-bold text-primary">$8600</h4>
+                          </div>
+                        </div>
+                        <div class="d-flex gap-2">
+                          <div class="icon-box md rounded-3 bg-danger-subtle">
+                            <span class="ri-openai-fill text-danger fs-3"></span>
+                          </div>
+                          <div>
+                            <p class="text-secondary m-0">Profit</p>
+                            <h4 class="m-0 fw-bold text-danger">$3600</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-12">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="card-title">Tasks</h5>
+                  </div>
+                  <div class="card-body">
+
+                    <!-- Graph -->
+                    <div class="auto-align-graph overflow-hidden">
+                      <div id="tasks"></div>
+                    </div>
+
+                    <div class="d-grid gap-3">
+
+                      <!-- Labels -->
+                      <div class="d-flex justify-content-center gap-2">
+                        <div class="badge bg-primary-subtle text-primary">React</div>
+                        <div class="badge bg-primary-subtle text-primary">Angular</div>
+                        <div class="badge bg-primary-subtle text-primary">Node</div>
+                        <div class="badge bg-primary-subtle text-primary">Python</div>
+                        <div class="badge bg-primary-subtle text-primary">Java</div>
+                      </div>
+
+                      <!-- Team -->
+                      <div class="stacked-images sm justify-content-center">
+                        <img src="assets/images/user.png" alt="Admin Dashboards">
+                        <img src="assets/images/user2.png" alt="Admin Dashboards">
+                        <img src="assets/images/user3.png" alt="Admin Dashboards">
+                        <img src="assets/images/user4.png" alt="Admin Dashboards">
+                        <span class="plus bg-danger">+5</span>
+                      </div>
+
+                      <!-- Progress -->
+                      <div class="progress w-25 m-auto mb-3" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar bg-primary w-50">50%</div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row end -->
+
+            <!-- Row start -->
+            <div class="row gx-3">
+              <div class="col-xxl-4 col-sm-6">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="card-title">Updates</h5>
+                  </div>
+                  <div class="card-body pt-0">
+                    <div class="bg-primary-subtle p-3 rounded-5 d-flex justify-content-between align-items-center mb-4">
+                      <div id="todays-date" class="fw-semibold text-primary"></div>
+                      <div class="badge rounded-pill bg-primary">
+                        <span>6</span> Updates
+                      </div>
+                    </div>
+                    <div class="scroll240">
+                      <div class="d-grid gap-4">
+                        <div class="d-flex align-items-start gap-3">
+                          <div class="icon-box sm rounded-5 bg-primary">
+                            <i class="ri-check-fill"></i>
+                          </div>
+                          <div>
+                            <h6 class="text-primary fw-bold">11:30AM</h6>
+                            <p class="m-0 text-secondary">
+                              Hackathon - A coding competition where teams
+                              collaborate on innovative projects.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                          <div class="icon-box sm rounded-5 bg-danger-subtle">
+                            <i class="ri-check-fill text-danger"></i>
+                          </div>
+                          <div>
+                            <h6 class="text-secondary fw-bold">12:30PM</h6>
+                            <p class="m-0 text-secondary">
+                              Lunch & Learn - Casual knowledge-sharing over
+                              lunch, hosted by team members.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                          <div class="icon-box sm rounded-5  bg-danger-subtle">
+                            <i class="ri-check-fill text-danger"></i>
+                          </div>
+                          <div>
+                            <h6 class="text-secondary fw-bold">02:30PM</h6>
+                            <p class="m-0 text-secondary">
+                              Conference - Attending tech
+                              community meetups and industry events.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                          <div class="icon-box sm rounded-5  bg-danger-subtle">
+                            <i class="ri-check-fill text-danger"></i>
+                          </div>
+                          <div>
+                            <h6 class="text-secondary fw-bold">02:30PM</h6>
+                            <p class="m-0 text-secondary">
+                              Anniversary - Celebrating milestones with
+                              employees and clients.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                          <div class="icon-box sm rounded-5  bg-danger-subtle">
+                            <i class="ri-check-fill text-danger"></i>
+                          </div>
+                          <div>
+                            <h6 class="text-secondary fw-bold">03:30PM</h6>
+                            <p class="m-0 text-secondary">
+                              Knowledge Sharing - Internal or external
+                              speaker sessions on emerging technologies.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-start gap-3">
+                          <div class="icon-box sm rounded-5  bg-danger-subtle">
+                            <i class="ri-check-fill text-danger"></i>
+                          </div>
+                          <div>
+                            <h6 class="text-secondary fw-bold">05:00PM</h6>
+                            <p class="m-0 text-secondary">
+                              Awards - Monthly or quarterly appreciation for
+                              outstanding employees.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-sm-6">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="card-title">Activity</h5>
+                  </div>
+                  <div class="card-body">
+
+                    <div class="scroll150">
+                      <!-- List starts -->
+                      <div class="d-flex flex-column gap-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">Server down</h6>
+                          <div class="badge bg-danger-subtle text-danger min-50">High</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">Transaction success</h6>
+                          <div class="badge bg-primary-subtle text-primary min-50">Low</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">Critical issue</h6>
+                          <div class="badge bg-danger-subtle text-danger min-50">High</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">Bug fix</h6>
+                          <div class="badge bg-danger-subtle text-danger min-50">High</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">OS update</h6>
+                          <div class="badge bg-primary-subtle text-primary min-50">Low</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">Hosting plan payment</h6>
+                          <div class="badge bg-danger-subtle text-danger min-50">High</div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between">
+                          <h6 class="m-0 fw-normal">Hire react developer</h6>
+                          <div class="badge bg-primary-subtle text-primary min-50">Low</div>
+                        </div>
+                      </div>
+                      <!-- List ends -->
+                    </div>
+
+                    <!-- Graph starts -->
+                    <div class="bg-light-subtle px-3 rounded-3 mt-3">
+                      <div class="overflow-hidden auto-align-graph">
+                        <div id="orders"></div>
+                      </div>
+                    </div>
+                    <!-- Graph ends -->
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-sm-12">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <h5 class="card-title">Social Traffic</h5>
+                  </div>
+                  <div class="card-body">
+
+                    <div class="scroll300">
+                      <ul class="list-unstyled d-grid">
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-primary">
+                              <i class="ri-instagram-fill"></i>
+                            </div>
+                            <div class="flex-fill">Instagram</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>48.96K</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-right-up-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-primary">
+                              <i class="ri-facebook-fill"></i>
+                            </div>
+                            <div class="flex-fill">Facebook</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>36.83K</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-right-up-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-primary">
+                              <i class="ri-tiktok-fill"></i>
+                            </div>
+                            <div class="flex-fill">TikTok</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>33.68K</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-right-up-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-danger">
+                              <i class="ri-pinterest-fill"></i>
+                            </div>
+                            <div class="flex-fill">Pinterest</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>30.30K</span>
+                              <span class="badge bg-danger-subtle rounded-pill text-danger">
+                                <i class="ri-arrow-right-down-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-danger">
+                              <i class="ri-twitter-x-fill"></i>
+                            </div>
+                            <div class="flex-fill">Twitter</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>28.36K</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-right-up-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-danger">
+                              <i class="ri-youtube-fill"></i>
+                            </div>
+                            <div class="flex-fill">Youtube</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>26.28K</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-right-up-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-danger">
+                              <i class="ri-telegram-fill"></i>
+                            </div>
+                            <div class="flex-fill">Telegram</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>23.29K</span>
+                              <span class="badge bg-danger-subtle rounded-pill text-danger">
+                                <i class="ri-arrow-right-down-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="w-100 border-bottom py-2">
+                          <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <div class="icon-box sm rounded-5 bg-danger">
+                              <i class="ri-tumblr-fill"></i>
+                            </div>
+                            <div class="flex-fill">Tumblr</div>
+                            <div class="ms-auto d-flex align-items-center gap-2">
+                              <span>09.38K</span>
+                              <span class="badge bg-primary-subtle rounded-pill text-primary">
+                                <i class="ri-arrow-right-up-line"></i></span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Row end -->
+
+          </div>
+          <!-- App body ends -->
+
+          <!-- App footer start -->
+          <div class="app-footer">
+            <span>© BootstrapGet 2025</span>
+          </div>
+          <!-- App footer end -->
+
+        </div>
+        <!-- App container ends -->
+
+      </div>
+      <!-- Main container end -->
+
+    </div>
+    <!-- Page wrapper end -->
+    <script type="module">
+      import { auth } from './firebase.js';
+      import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+      
+      onAuthStateChanged(auth, (user) => {
+        if (!user) {
+          // Si no hay usuario logueado, redirige al login
+          window.location.href = 'login.html';
+        } else {
+          console.log("Usuario logueado:", user.email);
+        }
+      });
+      </script>
+    <!-- *************
+			************ JavaScript Files *************
+		************* -->
+    <!-- Required jQuery first, then Bootstrap Bundle JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+
+    <!-- *************
+			************ Vendor Js Files *************
+		************* -->
+
+    <!-- Overlay Scroll JS -->
+    <script src="assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
+    <script src="assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
+
+    <!-- Toastify JS -->
+    <script src="assets/vendor/toastify/toastify.js"></script>
+    <script src="assets/vendor/toastify/custom.js"></script>
+
+    <!-- Apex Charts -->
+    <script src="assets/vendor/apex/apexcharts.min.js"></script>
+    <script src="assets/vendor/apex/custom/dash1/visitors.js"></script>
+    <script src="assets/vendor/apex/custom/dash1/sales.js"></script>
+    <script src="assets/vendor/apex/custom/dash1/tasks.js"></script>
+    <script src="assets/vendor/apex/custom/dash1/income.js"></script>
+    <script src="assets/vendor/apex/custom/dash1/monthly-sales.js"></script>
+    <script src="assets/vendor/apex/custom/dash1/sparkline.js"></script>
+
+    <!-- Custom JS files -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/todays-date.js"></script>
+  </body>
+
+</html>
