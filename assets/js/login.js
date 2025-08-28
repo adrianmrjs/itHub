@@ -12,7 +12,7 @@ loginForm.addEventListener('submit', async (e) => {
 
   try {
     await signInWithEmailAndPassword(auth, email, password);
-    window.location.href = 'index.html';
+    window.location.href = 'dashboard.html';
   } catch (error) {
     errorMsg.textContent = error.message;
   }
@@ -26,7 +26,7 @@ googleButton.addEventListener('click', async () => {
     const result = await signInWithPopup(auth, provider);
     // Usuario logueado con Google
     console.log("Usuario Google:", result.user);
-    window.location.href = 'index.html';
+    window.location.href = 'dashboard.html';
   } catch (error) {
     errorMsg.textContent = error.message;
   }
