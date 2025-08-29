@@ -331,7 +331,7 @@
           <div class="dropdown ms-2">
             <a id="userSettings" class="dropdown-toggle d-flex align-items-center py-1" href="#!" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="assets/images/user.png" class="rounded-5 border border-2 border-primary img-3x"
+              <img src="assets/images/iconn/10105797.png" class="rounded-5 border border-2 border-primary img-3x"
                 alt="BootstrapGet">
               <span class="ms-2 text-truncate d-lg-block d-none">Alissa French</span>
             </a>
@@ -371,7 +371,7 @@
           <!-- Sidebar profile starts -->
           <div class="shop-profile d-xl-flex d-none">
             <p class="mb-1 fw-bold text-primary text-truncate">Location</p>
-            <p class="m-0 text-truncate">Los Angeles, California</p>
+            <p class="m-0 text-truncate">Argentina</p>
           </div>
           <!-- Sidebar profile ends -->
 
@@ -722,8 +722,8 @@
             </ol>
             <!-- Breadcrumb end -->
 
-            <!-- Sales stats start -->
-            <div class="ms-auto d-lg-flex d-none flex-row">
+            <!-- Sales stats start
+                         <div class="ms-auto d-lg-flex d-none flex-row">
               <div class="d-flex flex-row gap-1 day-selection">
                 <button type="button" class="btn btn-sm rounded-5 btn-primary">Today</button>
                 <button type="button" class="btn btn-sm rounded-5 btn-white">7D</button>
@@ -733,7 +733,8 @@
                 <button type="button" class="btn btn-sm rounded-5 btn-white">6M</button>
                 <button type="button" class="btn btn-sm rounded-5 btn-white">1Y</button>
               </div>
-            </div>
+            </div> -->
+
             <!-- Sales stats end -->
 
           </div>
@@ -809,247 +810,745 @@
             </div>
             <!-- Row end -->
 
-            <!-- Row start -->
-            <div class="row gx-3">
-              <div class="col-xxl-12">
-                <div class="card mb-3">
-                  <div class="card-header d-flex justify-content-between align-items-center">
-                    <h5 class="card-title">Overview</h5>
-                    <button type="button" class="btn btn-primary btn-sm rounded-5 ms-auto">
-                      Download
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <!-- Row start -->
-                    <div class="row gx-3">
-                      <div class="col-xxl-5 col-sm-12 col-12">
-                        <h5 class="text-center mb-3 text-primary">Visitors</h5>
-                        <div class="overflow-hidden">
-                          <div id="visitors"></div>
-                        </div>
-                        <div class="my-3 text-center">
-                          <div class="badge bg-danger-subtle  text-danger">
-                            10% higher than last month
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xxl-2 col-sm-12 col-12">
-                        <div class="bg-primary p-3 rounded-5 h-100 text-center stripes-bg text-white">
-                          <h6 class="my-3 text-white">Monthly Average</h6>
-                          <div class="m-0">
-                            <h1 class="fw-bold">$9800</h1>
-                            <h6 class="fw-normal">Sales</h6>
-                          </div>
-                          <div class="overflow-hidden apex-legend-light">
-                            <div id="monthlySales"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xxl-5 col-sm-12 col-12">
-                        <h5 class="text-center mb-3 text-primary">Sales</h5>
-                        <div class="overflow-hidden">
-                          <div id="sales"></div>
-                        </div>
-                        <div class="my-3 text-center">
-                          <div class="badge bg-primary-subtle text-primary">
-                            12% higher than last month
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Row ends -->
-                  </div>
-                </div>
-              </div>
-            </div>
+           
+
             <!-- Row ends -->
 
             <!-- Row start -->
-            <div class="row gx-3">
-              <div class="col-xl-4 col-lg-6">
+    <div class="row gx-3">
+              <div class="col-sm-12">
                 <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="card-title">Visitors</h5>
-                  </div>
                   <div class="card-body">
 
-                    <div class="scroll300">
-                      <ul class="list-unstyled d-grid">
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/us.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">United States</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(68,890)</span>
-                              <span class="badge bg-primary-subtle rounded-pill text-primary">
-                                <i class="ri-arrow-up-s-fill me-1"></i>3.9%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/br.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">Brazil</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(56,330)</span>
-                              <span class="badge bg-primary-subtle rounded-pill text-primary">
-                                <i class="ri-arrow-up-s-fill me-1"></i>2.8%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/de.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">Germany</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(49,690)</span>
-                              <span class="badge bg-primary-subtle rounded-pill text-primary">
-                                <i class="ri-arrow-up-s-fill me-1"></i>6.3%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/tr.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">Turkey</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(43,830)</span>
-                              <span class="badge bg-danger-subtle rounded-pill text-danger">
-                                <i class="ri-arrow-down-s-fill me-1"></i>8.2%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/in.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">India</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(33,290)</span>
-                              <span class="badge bg-primary-subtle rounded-pill text-primary">
-                                <i class="ri-arrow-up-s-fill me-1"></i>2.3%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/ru.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">Russia</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(28,600)</span>
-                              <span class="badge bg-danger-subtle rounded-pill text-danger">
-                                <i class="ri-arrow-down-s-fill me-1"></i>9.8%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/ve.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">Venezuela</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(23,330)</span>
-                              <span class="badge bg-primary-subtle rounded-pill text-primary">
-                                <i class="ri-arrow-up-s-fill me-1"></i>2.9%</span>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="w-100 border-bottom py-3">
-                          <div class="d-flex align-items-center gap-2 flex-wrap">
-                            <img src="assets/images/flags/1x1/mx.svg" class="img-2x rounded-circle"
-                              alt="Admin Template">
-                            <div class="flex-fill">Mexico</div>
-                            <div class="ms-auto d-flex align-items-center gap-2">
-                              <span>(14,590)</span>
-                              <span class="badge bg-primary-subtle rounded-pill text-primary">
-                                <i class="ri-arrow-up-s-fill me-1"></i>3.2%</span>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
+                    <!-- Tabs starts -->
+                    <ul class="nav nav-pills mb-3 gap-1" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill active " id="pills-a-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-a" type="button" role="tab" aria-controls="pills-a"
+                          aria-selected="true">General</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-b-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-b" type="button" role="tab" aria-controls="pills-b"
+                          aria-selected="false">Notifications</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-c-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-c" type="button" role="tab" aria-controls="pills-c"
+                          aria-selected="false">Billing</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-d-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-d" type="button" role="tab" aria-controls="pills-d"
+                          aria-selected="false">Applications</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-e-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-e" type="button" role="tab" aria-controls="pills-e"
+                          aria-selected="false">Password Reset</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-pill" id="pills-f-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-f" type="button" role="tab" aria-controls="pills-f"
+                          aria-selected="false">Delete Account</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pills-a" role="tabpanel" aria-labelledby="pills-a-tab"
+                        tabindex="0">
 
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-sm-6">
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="card-title">Income</h5>
-                  </div>
-                  <div class="card-body">
-                    <div class="overflow-hidden">
-                      <div id="income"></div>
-                    </div>
-                    <div class="">
-                      <div class="d-flex gap-4">
-                        <div class="d-flex gap-2">
-                          <div class="icon-box md rounded-3 bg-primary-subtle">
-                            <span class="ri-openai-fill text-primary fs-3"></span>
+                        <!-- Row starts -->
+                        <div class="row gx-3">
+                          <div class="col-xxl-9 col-sm-12">
+                            <div class="border rounded-2 p-3 mb-3">
+
+                              <!-- Row start -->
+                              <div class="row gx-3">
+                                <div class="col-xxl-3 col-sm-4">
+                                  <div class="mb-2">
+                                    <img src="assets/images/user.png"
+                                      class="img-fluid rounded-3 border border-3 border-primary" alt="Admin Templates">
+                                  </div>
+                                  <button type="button" class="btn btn-primary">Upload New</button>
+                                  <div class="form-text">
+                                    Max file size 1MB
+                                  </div>
+                                </div>
+                                <div class="col-xxl-9 col-sm-8">
+
+                                  <div class="mb-4 bg-primary-subtle text-primary p-2 rounded-2">
+                                    <h6 class="m-0">Update Your Details</h6>
+                                  </div>
+
+                                  <!-- Row start -->
+                                  <div class="row gx-3">
+                                    <div class="col-sm-6">
+                                      <div class="mb-3">
+                                        <label for="displayName" class="form-label">Display Name</label>
+                                        <input type="text" class="form-control" id="displayName"
+                                          placeholder="Enter Display Name">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="yourEmail" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="yourEmail"
+                                          placeholder="Enter Email">
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <div class="mb-3">
+                                        <label for="fullName" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName"
+                                          placeholder="Enter Full Name">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="yourPhone" class="form-label">Phone Number</label>
+                                        <input type="text" class="form-control" id="yourPhone"
+                                          placeholder="Enter Phone Number">
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <div class="d-flex justify-content-end gap-1">
+                                        <button class="btn btn-danger" type="button">Reset</button>
+                                        <button class="btn btn-primary" type="button">
+                                          <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                                          <span role="status">Saving...</span>
+                                        </button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- Row end -->
+
+                                </div>
+                              </div>
+                              <!-- Row end -->
+
+                            </div>
                           </div>
-                          <div>
-                            <p class="text-secondary m-0">Sales</p>
-                            <h4 class="m-0 fw-bold text-primary">$8600</h4>
+                          <div class="col-xxl-3 col-sm-12">
+                            <div class="border rounded-2 p-3 mb-3">
+                              <div class="mb-4 bg-light-subtle p-2 rounded-2">
+                                <h6 class="m-0">Link Accounts</h6>
+                              </div>
+                              <div class="d-grid gap-3">
+                                <div class="d-flex align-items-center gap-2">
+                                  <img src="assets/images/social/facebook.svg" class="img-2x" alt="Admin Templates">
+                                  <span>Facebook</span>
+                                  <button type="button"
+                                    class="btn btn-outline-primary btn-sm rounded-pill ms-auto">Connect</button>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                  <img src="assets/images/social/twitter.svg" class="img-2x" alt="Admin Templates">
+                                  <span>Twitter</span>
+                                  <button type="button"
+                                    class="btn btn-outline-primary btn-sm rounded-pill ms-auto">Connect</button>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                  <img src="assets/images/social/google.svg" class="img-2x" alt="Admin Templates">
+                                  <span>Google</span>
+                                  <button type="button"
+                                    class="btn btn-outline-primary btn-sm rounded-pill ms-auto">Connect</button>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                  <img src="assets/images/social/github.svg" class="img-2x" alt="Admin Templates">
+                                  <span>Github</span>
+                                  <button type="button"
+                                    class="btn btn-outline-primary btn-sm rounded-pill ms-auto">Connect</button>
+                                </div>
+                                <div class="d-flex align-items-center gap-2">
+                                  <img src="assets/images/social/instagram.svg" class="img-2x" alt="Admin Templates">
+                                  <span>Instagram</span>
+                                  <button type="button"
+                                    class="btn btn-outline-primary btn-sm rounded-pill ms-auto">Connect</button>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div class="d-flex gap-2">
-                          <div class="icon-box md rounded-3 bg-danger-subtle">
-                            <span class="ri-openai-fill text-danger fs-3"></span>
+                        <!-- Row ends -->
+
+                      </div>
+                      <div class="tab-pane fade" id="pills-b" role="tabpanel" aria-labelledby="pills-b-tab"
+                        tabindex="0">
+
+                        <!-- Row starts -->
+                        <div class="row gx-3">
+                          <div class="col-sm-12 col-12">
+                            <div class="mb-4 bg-light-subtle p-2 rounded-2">
+                              <p class="m-0">While you are not around, check your emails to see what is happening. You
+                                can disable these. Update your notifications here.</p>
+                            </div>
                           </div>
-                          <div>
-                            <p class="text-secondary m-0">Profit</p>
-                            <h4 class="m-0 fw-bold text-danger">$3600</h4>
+                          <div class="col-xxl-4 col-sm-6">
+                            <div class="list-group">
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-mail-send-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Messages</h6>
+                                  <p class="m-0 text-secondary">
+                                    Messages notifications.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n2" checked="">
+                                </div>
+                              </div>
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-star-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Review</h6>
+                                  <p class="m-0 text-secondary">
+                                    Update review notifications.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n3" checked="">
+                                </div>
+                              </div>
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-radio-2-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Updates</h6>
+                                  <p class="m-0 text-secondary">
+                                    Updates news notifications.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n4">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xxl-4 col-sm-6">
+                            <div class="list-group">
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-macbook-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Desktop Notifications</h6>
+                                  <p class="m-0 text-secondary">
+                                    Enable desktop notifications.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n5">
+                                </div>
+                              </div>
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-mail-send-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Email</h6>
+                                  <p class="m-0 text-secondary">
+                                    Enable email notifications.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n6" checked="">
+                                </div>
+                              </div>
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-chat-1-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Chat</h6>
+                                  <p class="m-0 text-secondary">
+                                    Enable chat notifications.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n7" checked="">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xxl-4 col-sm-6">
+                            <div class="list-group">
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-emoji-sticker-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Follower</h6>
+                                  <p class="m-0 text-secondary">
+                                    Enable or disable followers.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n8" checked="">
+                                </div>
+                              </div>
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-time-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Reminder</h6>
+                                  <p class="m-0 text-secondary">
+                                    Enable reminders.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n9">
+                                </div>
+                              </div>
+                              <div class="list-group-item d-flex align-items-center gap-3">
+                                <div class="icon-box md bg-primary-subtle rounded-3">
+                                  <i class="ri-message-3-line text-primary fs-6"></i>
+                                </div>
+                                <div>
+                                  <h6 class="mb-1">Comment</h6>
+                                  <p class="m-0 text-secondary">
+                                    Comment on your post and replies.
+                                  </p>
+                                </div>
+                                <div class="form-check form-switch m-0 ms-auto">
+                                  <input class="form-check-input" type="checkbox" role="switch" id="n10" checked="">
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
+                        <!-- Row ends -->
+
+                      </div>
+                      <div class="tab-pane fade" id="pills-c" role="tabpanel" aria-labelledby="pills-c-tab"
+                        tabindex="0">
+
+                        <!-- Row starts -->
+                        <div class="row gx-3">
+                          <div class="col-sm-12">
+                            <div class="border rounded-2 p-3 mb-3">
+                              <div class="mb-4 bg-primary-subtle p-2 rounded-2">
+                                You can upgrade and downgrade whenever you want.
+                              </div>
+
+                              <!-- Row starts -->
+                              <div class="row gx-3 justify-content-center mb-5">
+                                <div class="col-xl-3 col-sm-4">
+                                  <a href="javascript:void(0)"
+                                    class="d-flex border border-3 rounded-3 p-3 position-relative">
+                                    <div class="d-grid gap-3">
+                                      <i class="ri-star-line text-primary fs-3"></i>
+                                      <h3 class="m-0 fw-bold">$3.00/<small class="fw-normal text-secondary">mo</small>
+                                      </h3>
+                                      <h6 class="m-0 text-uppercase">Basic</h6>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div class="col-xl-3 col-sm-4">
+                                  <a href="javascript:void(0)"
+                                    class="d-flex border border-primary border-3 rounded-3 p-3 position-relative">
+                                    <div class="ribbon-2-end">Selected</div>
+                                    <div class="d-grid gap-3">
+                                      <i class="ri-star-half-fill text-primary fs-3"></i>
+                                      <h3 class="m-0 fw-bold">$9.99/<small class="fw-normal text-secondary">mo</small>
+                                      </h3>
+                                      <h6 class="m-0 text-uppercase">Standard</h6>
+                                    </div>
+                                  </a>
+                                </div>
+                                <div class="col-xl-3 col-sm-4">
+                                  <a href="javascript:void(0)"
+                                    class="d-flex border border-3 rounded-3 p-3 position-relative">
+                                    <div class="d-grid gap-3">
+                                      <i class="ri-star-fill text-primary fs-3"></i>
+                                      <h3 class="m-0 fw-bold">$19.00/<small class="fw-normal text-secondary">mo</small>
+                                      </h3>
+                                      <h6 class="m-0 text-uppercase">Business</h6>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                              <!-- Row ends -->
+
+                              <!-- Row starts -->
+                              <div class="row gx-3 justify-content-center">
+                                <div class="col-sm-9">
+                                  <div class="table-outer mb-3">
+                                    <div class="table-responsive">
+                                      <table class="table align-middle table-hover m-0">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Order No.</th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Amount</th>
+                                            <th scope="col">Status</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>SKU89890</td>
+                                            <td>09 March 2025 9:20AM</td>
+                                            <td>$90.00</td>
+                                            <td>
+                                              <span class="badge bg-danger">Awaiting</span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>SKU89890</td>
+                                            <td>02 February 2025 6:30PM</td>
+                                            <td>$30.00</td>
+                                            <td>
+                                              <span class="badge bg-primary">Paid</span>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>SKU89890</td>
+                                            <td>03 January 2025 3:36PM</td>
+                                            <td>$60.00</td>
+                                            <td>
+                                              <span class="badge bg-primary">Paid</span>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-9">
+                                  <div class="d-flex justify-content-end gap-1">
+                                    <button class="btn btn-danger" type="button">Cancel</button>
+                                    <button class="btn btn-primary" type="button">Save</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Row ends -->
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Row ends -->
+
+                      </div>
+                      <div class="tab-pane fade" id="pills-d" role="tabpanel" aria-labelledby="pills-d-tab"
+                        tabindex="0">
+
+                        <!-- Row starts -->
+                        <div class="row gx-3">
+                          <div class="col-sm-12">
+                            <div class="border rounded-2 p-3 mb-3">
+                              <div class="mb-4 bg-primary-subtle p-2 rounded-2">
+                                Manage Connected Applications.
+                              </div>
+
+                              <!-- Row starts -->
+                              <div class="row gx-3">
+                                <div class="col-xl-4 col-sm-6">
+                                  <div class="card mb-3 bg-light-subtle">
+                                    <div class="card-body">
+                                      <div class="d-grid gap-3">
+                                        <div class="d-flex align-items-center gap-2">
+                                          <img src="assets/images/social/slack.svg" class="img-3x"
+                                            alt="Admin Templates">
+                                          <h5 class="m-0">Slack</h5>
+                                        </div>
+                                        <p class="m-0">Slack account is successfully connected 🚀</p>
+                                        <button type="button" class="btn btn-dark btn-sm">Disconnect</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                  <div class="card mb-3 bg-light-subtle">
+                                    <div class="card-body">
+                                      <div class="d-grid gap-3">
+                                        <div class="d-flex align-items-center gap-2">
+                                          <img src="assets/images/social/facebook.svg" class="img-3x"
+                                            alt="Admin Templates">
+                                          <h5 class="m-0">Facebook</h5>
+                                        </div>
+                                        <p class="m-0">Facebook account is successfully connected 🎉</p>
+                                        <button type="button" class="btn btn-dark btn-sm">Disconnect</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                  <div class="card mb-3 bg-light-subtle">
+                                    <div class="card-body">
+                                      <div class="d-grid gap-3">
+                                        <div class="d-flex align-items-center gap-2">
+                                          <img src="assets/images/social/notion.svg" class="img-3x"
+                                            alt="Admin Templates">
+                                          <h5 class="m-0">Notion</h5>
+                                        </div>
+                                        <p class="m-0">Notion account is successfully connected ✅</p>
+                                        <button type="button" class="btn btn-dark btn-sm">Disconnect</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                  <div class="card mb-3 bg-light-subtle">
+                                    <div class="card-body">
+                                      <div class="d-grid gap-3">
+                                        <div class="d-flex align-items-center gap-2">
+                                          <img src="assets/images/social/twitter.svg" class="img-3x"
+                                            alt="Admin Templates">
+                                          <h5 class="m-0">Twitter</h5>
+                                        </div>
+                                        <p class="m-0">Connect Yout Twitter Account ✨</p>
+                                        <button type="button" class="btn btn-primary btn-sm">Connect</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                  <div class="card mb-3 bg-light-subtle">
+                                    <div class="card-body">
+                                      <div class="d-grid gap-3">
+                                        <div class="d-flex align-items-center gap-2">
+                                          <img src="assets/images/social/github.svg" class="img-3x"
+                                            alt="Admin Templates">
+                                          <h5 class="m-0">Github</h5>
+                                        </div>
+                                        <p class="m-0">Connect Your Github Account 🔗</p>
+                                        <button type="button" class="btn btn-primary btn-sm">Connect</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6">
+                                  <div class="card mb-3 bg-light-subtle">
+                                    <div class="card-body">
+                                      <div class="d-grid gap-3">
+                                        <div class="d-flex align-items-center gap-2">
+                                          <img src="assets/images/social/google.svg" class="img-3x"
+                                            alt="Admin Templates">
+                                          <h5 class="m-0">Google</h5>
+                                        </div>
+                                        <p class="m-0">Connect Your Google Account 🔥</p>
+                                        <button type="button" class="btn btn-primary btn-sm">Connect</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Row ends -->
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Row ends -->
+
+                      </div>
+                      <div class="tab-pane fade" id="pills-e" role="tabpanel" aria-labelledby="pills-e-tab"
+                        tabindex="0">
+
+                        <!-- Row starts -->
+                        <div class="row gx-3">
+                          <div class="col-sm-12">
+                            <div class="border rounded-2 p-3 mb-3">
+                              <div class="mb-4 bg-primary-subtle p-2 rounded-2">
+                                Your Password will expire in every 90 days. So change it periodically. <strong>Do not
+                                  share your password.</strong>
+                              </div>
+
+                              <!-- Row starts -->
+                              <div class="row gx-3 justify-content-center">
+                                <div class="col-sm-4">
+                                  <div class="mb-3">
+                                    <label class="form-label" for="currentPwd">Current password <span
+                                        class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                      <input type="password" id="currentPwd" placeholder="Enter Current password"
+                                        class="form-control">
+                                      <button class="btn btn-outline-light" type="button">
+                                        <i class="ri-eye-off-line text-black"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="mb-3">
+                                    <label class="form-label text-primary" for="newPwd">New password <span
+                                        class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                      <input type="password" id="newPwd" class="form-control"
+                                        placeholder="Your password must be 8-20 characters long.">
+                                      <button class="btn btn-outline-light" type="button">
+                                        <i class="ri-eye-line text-black"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="mb-3">
+                                    <label class="form-label text-primary" for="confNewPwd">Confirm new password <span
+                                        class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                      <input type="password" id="confNewPwd" placeholder="Confirm new password"
+                                        class="form-control">
+                                      <button class="btn btn-outline-light" type="button">
+                                        <i class="ri-eye-line text-black"></i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn btn-primary">Update Password</button>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Row ends -->
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Row ends -->
+
+                        <!-- Row starts -->
+                        <div class="row gx-3">
+                          <div class="col-sm-12">
+                            <div class="border rounded-2 p-3">
+
+                              <div class="mb-4 bg-primary-subtle p-2 rounded-2">
+                                <h6 class="text-primary">Active Sessions</h6>
+                                <p class="m-0">List of active sessions. You can remove them by clicking on the terminate
+                                  button.</p>
+                              </div>
+
+                              <!-- Row starts -->
+                              <div class="row gx-3 mb-4">
+                                <div class="col-sm-12">
+                                  <div class="d-flex align-items-center gap-3 border rounded-3 p-3 mb-3">
+                                    <div class="icon-box md rounded-5 bg-light">
+                                      <i class="ri-apple-fill text-body"></i>
+                                    </div>
+                                    <div>
+                                      <h6 class="mb-1">Macbook Pro 15</h6>
+                                      <p class="mb-1 text-secondary">Google chrome version 130.0.0.999</p>
+                                      <p class="m-0 text-secondary">New York, USA</p>
+                                    </div>
+                                    <div class="ms-auto">
+                                      <button type="button" class="btn btn-success">Active</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Row ends -->
+
+                              <!-- Row starts -->
+                              <div class="row gx-3">
+                                <div class="col-sm-12">
+                                  <div class="mb-4 bg-primary-subtle p-2 rounded-2">
+                                    <h6 class="mb-1">Other Active Sessions</h6>
+                                  </div>
+                                </div>
+                                <div class="col-xxl-6 col-sm-12">
+                                  <div class="d-flex align-items-center gap-3 border rounded-3 p-3 mb-3">
+                                    <div class="icon-box md rounded-5 bg-light-subtle border border-light">
+                                      <i class="ri-apple-fill text-body"></i>
+                                    </div>
+                                    <div>
+                                      <h6 class="mb-1">iPhone 16 Pro</h6>
+                                      <p class="mb-1 text-secondary">Safari version 3.2.3</p>
+                                      <p class="m-0 text-secondary">New York, USA</p>
+                                    </div>
+                                    <div class="ms-auto">
+                                      <button type="button" class="btn btn-danger">Terminate</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xxl-6 col-sm-12">
+                                  <div class="d-flex align-items-center gap-3 border rounded-3 p-3 mb-3">
+                                    <div class="icon-box md rounded-5 bg-light-subtle border border-light">
+                                      <i class="ri-android-fill text-body"></i>
+                                    </div>
+                                    <div>
+                                      <h6 class="mb-1">Samsung Galaxy II</h6>
+                                      <p class="mb-1 text-secondary">Google chrome version 130.0.0.886</p>
+                                      <p class="m-0 text-secondary">New York, USA</p>
+                                    </div>
+                                    <div class="ms-auto">
+                                      <button type="button" class="btn btn-danger">Terminate</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xxl-6 col-sm-12">
+                                  <div class="d-flex align-items-center gap-3 border rounded-3 p-3 mb-3">
+                                    <div class="icon-box md rounded-5 bg-light-subtle border border-light">
+                                      <i class="ri-apple-fill text-body"></i>
+                                    </div>
+                                    <div>
+                                      <h6 class="mb-1">iPhone 15 Pro</h6>
+                                      <p class="mb-1 text-secondary">Safari version 3.2.2</p>
+                                      <p class="m-0 text-secondary">New York, USA</p>
+                                    </div>
+                                    <div class="ms-auto">
+                                      <button type="button" class="btn btn-danger">Terminate</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-xxl-6 col-sm-12">
+                                  <div class="d-flex align-items-center gap-3 border rounded-3 p-3 mb-3">
+                                    <div class="icon-box md rounded-5 bg-light-subtle border border-light">
+                                      <i class="ri-android-fill text-body"></i>
+                                    </div>
+                                    <div>
+                                      <h6 class="mb-1">Samsung Galaxy</h6>
+                                      <p class="mb-1 text-secondary">Google chrome version 130.0.0.898</p>
+                                      <p class="m-0 text-secondary">New York, USA</p>
+                                    </div>
+                                    <div class="ms-auto">
+                                      <button type="button" class="btn btn-danger">Terminate</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Row ends -->
+
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Row ends -->
+
+                      </div>
+                      <div class="tab-pane fade" id="pills-f" role="tabpanel" aria-labelledby="pills-f-tab"
+                        tabindex="0">
+
+                        <!-- Row starts -->
+                        <div class="row gx-3 justify-content-center">
+                          <div class="col-sm-12">
+
+                            <!-- Data starts -->
+                            <div class="bg-white rounded-3 w-50 m-auto border border-3 border-primary">
+                              <div class="p-4 text-center">
+                                <h5 class="text-primary mb-3">Delete Account?</h5>
+                                <p class="mb-0">
+                                  Are you sure you want to delete your account? This action is permanent and cannot
+                                  be
+                                  undone. All your data will be removed from our system. If you proceed, you
+                                  will lose
+                                  access to your account and any associated information.
+                                </p>
+                                <div class="mt-3 d-flex justify-content-center gap-2">
+                                  <button type="button" class="btn btn-secondary">No Thanks</button>
+                                  <button type="button" class="btn btn-outline-primary">
+                                    <strong>Yes, Delete</strong>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Data ends -->
+
+                          </div>
+                        </div>
+                        <!-- Row ends -->
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-12">
-                <div class="card mb-3">
-                  <div class="card-header">
-                    <h5 class="card-title">Tasks</h5>
-                  </div>
-                  <div class="card-body">
-
-                    <!-- Graph -->
-                    <div class="auto-align-graph overflow-hidden">
-                      <div id="tasks"></div>
-                    </div>
-
-                    <div class="d-grid gap-3">
-
-                      <!-- Labels -->
-                      <div class="d-flex justify-content-center gap-2">
-                        <div class="badge bg-primary-subtle text-primary">React</div>
-                        <div class="badge bg-primary-subtle text-primary">Angular</div>
-                        <div class="badge bg-primary-subtle text-primary">Node</div>
-                        <div class="badge bg-primary-subtle text-primary">Python</div>
-                        <div class="badge bg-primary-subtle text-primary">Java</div>
-                      </div>
-
-                      <!-- Team -->
-                      <div class="stacked-images sm justify-content-center">
-                        <img src="assets/images/user.png" alt="Admin Dashboards">
-                        <img src="assets/images/user2.png" alt="Admin Dashboards">
-                        <img src="assets/images/user3.png" alt="Admin Dashboards">
-                        <img src="assets/images/user4.png" alt="Admin Dashboards">
-                        <span class="plus bg-danger">+5</span>
-                      </div>
-
-                      <!-- Progress -->
-                      <div class="progress w-25 m-auto mb-3" role="progressbar" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100">
-                        <div class="progress-bar bg-primary w-50">50%</div>
-                      </div>
-
-                    </div>
+                    <!-- Tabs ends -->
 
                   </div>
                 </div>
@@ -1324,7 +1823,7 @@
               </div>
             </div>
             <!-- Row end -->
-
+        
           </div>
           <!-- App body ends -->
 
@@ -1393,7 +1892,7 @@
   <body>
   <div id="dashboard-content" style="display:none;">
     <!-- Aquí va todo tu contenido del dashboard -->
-    <h1>Bienvenido al Dashboard</h1>
+    <h1></h1>
     <!-- más contenido -->
   </div>
 

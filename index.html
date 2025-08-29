@@ -1,25 +1,92 @@
+
 <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Login</title>
-</head>
-<body>
-  <h1>Iniciar sesión</h1>
+<html lang="en">
 
-  <form id="login-form">
-    <label for="email">Correo:</label>
-    <input type="email" id="email" required>
-    <br>
-    <label for="password">Contraseña:</label>
-    <input type="password" id="password" required>
-    <br>
-    <button type="submit">Entrar</button>
-  </form>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BootstrapGet- Grow Admin Dashboard Template</title>
 
-  <button id="google-login">Iniciar sesión con Google</button>  
-  <p id="error-msg" style="color:red;"></p>
+    <!-- Meta -->
+    <meta name="description"
+      content="Fully customizable admin template with dashboards, charts, and UI components. Ideal for business, finance, and eCommerce. Get it now on TemplateMonster.">
+    <meta name="author" content="BootstrapGet">
+    <link rel="canonical" href="https://www.bootstrapget.com">
+    <meta property="og:url" content="https://www.bootstrapget.com">
+    <meta property="og:title" content="Admin Templates - Dashboard Templates | BootstrapGet">
+    <meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+    <meta property="og:type" content="Website">
+    <meta property="og:site_name" content="BootstrapGet">
+    <link rel="shortcut icon" href="assets/images/favicon.svg">
 
+    <!-- *************
+			************ CSS Files *************
+		************* -->
+
+    <!-- Remix Font Icons css -->
+    <link rel="stylesheet" href="assets/fonts/remix/remixicon.css" />
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.min.css">
+
+  </head>
+
+  <body class="">
+
+    <!-- Container starts -->
+    <div class="container">
+
+    
+      <!-- Auth wrapper starts -->
+      <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <form id="login-form">
+
+          <div class="auth-box">
+            <h4 class="mb-4">Iniciar sesión</h4>
+
+            <div class="mb-3">
+              <label class="form-label" for="email">Correo electrónico <span class="text-danger">*</span></label>
+              <input type="email" id="email" class="form-control" placeholder="Ingresa tu correo">
+            </div>
+
+            <div class="mb-2">
+              <label class="form-label" for="pwd">Contraseña <span class="text-danger">*</span></label>
+              <div class="input-group">
+                <input type="password" id="password" class="form-control" placeholder="Ingresa tu contraseña">
+
+              </div>
+            </div>
+
+            <div class="">
+                 
+ 
+            </div>
+  <!--  <div class="mb-3 d-grid gap-2">
+              <button id="google-login" class="btn btn-outline-primary">Iniciar sesión con Google</button> 
+             
+            </div> -->
+            <p id="error-msg" style="color:red;"></p>
+
+
+            <div class="mb-3 d-grid gap-2">
+              
+            </div>
+
+            <div class="mb-3 d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Acceder</button>
+            </div>
+
+          </div>
+
+        </form>
+      
+
+      </div>
+      <!-- Auth wrapper ends -->
+
+    </div>
+    <!-- Container ends -->
   <script type="module" src="/assets/js/login.js"></script>
-</body>
+  </body>
+
 </html>
